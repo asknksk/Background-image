@@ -1,0 +1,67 @@
+* {
+  color: white;
+  margin: 0px;
+}
+
+header.header .bg {
+  background-image: url("../assets/img/tree.webp");
+  background-size: cover;
+  height: 100vh;
+}
+header.header .bg h1,
+p {
+  text-align: center;
+  font-size: 2rem;
+}
+header.header .bg h1 {
+  font-size: 3.5rem;
+  padding-top: 7%;
+}
+.button {
+  position: fixed;
+  left: 30%;
+  bottom: 10%;
+  text-align: center;
+}
+div.button .button1 {
+  background-color: grey;
+  border: 1px solid black;
+  /* width: 100px; */
+  padding: 3px 80px;
+  display: inline;
+  margin: 5px;
+}
+div.button .button2 {
+  background-color: grey;
+  border: 1px solid black;
+  /* width: 100px; */
+  padding: 3px 80px;
+  display: inline;
+  margin: 5px;
+}
+div.button .button3 {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 3px 80px;
+  display: inline;
+  margin: 5px;
+}
+
+div.button .button1:hover {
+  background-color: #ec3948;
+  border: 1rem solid #ec3948;
+  border-radius: 10px 0px;
+  box-shadow: 4px 4px 15px #ec3948;
+}
+div.button .button2:hover {
+  border: 1rem solid #ec3948;
+  background-color: #ec3948;
+  border-radius: 10px 0px;
+  box-shadow: 4px 4px 15px #ec3948;
+}
+div.button .button3:hover {
+  border: 1rem solid #ec3948;
+  background-color: #ec3948;
+  border-radius: 10px 0px;
+  box-shadow: 4px 4px 15px #ec3948;
+}
