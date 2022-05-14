@@ -4,7 +4,7 @@
 }
 
 header.header .bg {
-  background-image: url("../assets/img/tree.webp");
+  background-image: url("tree.webp");
   background-size: cover;
   height: 100vh;
 }
